@@ -1,4 +1,9 @@
-  var _createClass = (function () {
+define ([
+    'jquery'
+], function ($) {
+    $(function () { 
+
+   var _createClass = (function () {
     function defineProperties(target, props) {
       for (var i = 0; i < props.length; i++) {
         var descriptor = props[i];
@@ -236,3 +241,7 @@
 
     addLoadClass();
   })();
+
+
+    });
+}); 
